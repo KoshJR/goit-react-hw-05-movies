@@ -1,0 +1,27 @@
+.loader {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  right: 25px;
+  top: 25px;
+}
+.loader:after {
+  content: ' ';
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 32px solid #0138ff;
+  border-color: #0000fb transparent #0008fa transparent;
+  animation: loader 1.2s infinite;
+}
+.castItems {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 35px;
+}
