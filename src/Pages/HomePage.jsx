@@ -30,7 +30,7 @@ const HomePage = () => {
       <h1 className={css.firstTitle}>Trending today</h1>
       {isLoading && <Loader className={css.loader} />}
       {popularMovies.length > 0 && <MoviesList array={popularMovies} />}
-      {errorMessage && <h3>Something went wrong...</h3>}
+      {errorMessage && <h3>Wait a second, please...</h3>}
     </div>
   );
 };

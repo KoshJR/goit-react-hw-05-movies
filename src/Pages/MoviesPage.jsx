@@ -68,7 +68,7 @@ const MoviesPage = () => {
       </form>
       {isLoading && <Loader className={css.loader} />}
       {movie.length > 0 && <MoviesList array={movie} query={searchQuery} />}
-      {errorMessage && <h3>Something went wrong ....</h3>}
+      {errorMessage && <h3>Wait a second, please...</h3>}
     </div>
   );
 };

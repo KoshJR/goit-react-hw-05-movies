@@ -35,7 +35,7 @@ const MovieDetails = () => {
         Go Back
       </Link>
       {isLoading && <Loader className={css.loader} />}
-      {errorMessage && <h3>Something went wrong ....</h3>}
+      {errorMessage && <h3>Wait a second, please...</h3>}
 
       {movieDetails && (
         <div>
